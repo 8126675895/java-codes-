@@ -1,0 +1,42 @@
+import java.io.*;
+
+
+import java.util.*;
+
+
+import java.text.*;
+
+
+import java.math.*;
+
+
+import java.util.regex.*;
+
+
+
+
+
+public class Solution {
+
+
+public static void main(String[] args) 
+
+{
+        
+
+Scanner scan=new Scanner(System.in);
+
+float a=scan.nextFloat();
+
+float b=scan.nextFloat();
+
+float c=scan.nextFloat();
+
+float temp=(a+b+c)/3;
+
+System.out.print(String.format("%.1f", temp-0.1));
+
+}
+
+
+}
